@@ -3,7 +3,7 @@
 In modern machine learning system, how to automating data collection and retain process is key to have your model keep up to date. This sample code demonstrates how to build the automated process on AWS sagemaker 
 
 
-### tomofun competition template
+### Tomofun competition template
 
 This sample code is also a template for a [dog bark sound recognition competition](https://tbrain.trendmicro.com.tw/Competitions/Details/15) hold by a world leading pet camera company Tomofun.  
 
