@@ -5,7 +5,7 @@ In modern machine learning system, how to automating data collection and retain 
 
 ### Tomofun competition template
 
-This sample code is also a template for a [dog bark sound recognition competition](https://tbrain.trendmicro.com.tw/Competitions/Details/15) hold by a world leading pet camera company Tomofun.  
+This sample code is also a template for a [dog bark sound recognition competition](https://tbrain.trendmicro.com.tw/Competitions/Details/15) hold by a world leading pet camera company, Tomofun.  
 
 
 ### Architecture 
