@@ -1,4 +1,4 @@
-#Automating Incremental training and deployment 
+# Automating Incremental training and deployment 
 
 In modern machine learning system, how to automating data collection and retain process is key to have your model keep up to date. This sample code demonstrates how to build the automated process on AWS sagemaker 
 
