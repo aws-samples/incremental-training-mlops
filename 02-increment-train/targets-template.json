@@ -1,0 +1,7 @@
+[
+  {
+    "Id": "1", 
+    "Arn": "arn:aws:sqs:<region>:<account_id>:a2itasks"
+  }
+]
+

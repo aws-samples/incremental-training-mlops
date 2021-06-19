@@ -1,12 +1,20 @@
-## My Project
+# tomofun_competition_template
 
-TODO: Fill this README out!
 
-test write 
-Be sure to:
+### Architecture 
 
-* Change the title in this README
-* Edit your repository description on GitHub
+![architecture](./architecture.jpg)
+
+1. Training model by customized container  
+2. Deploying model
+3. Triggering endpoint by Lambda function 
+4. Integrating Lambda function and API-Gateway 
+5. Saving posted audio files to S3 
+6. Initiating A2I tasks 
+7. Users labels the incoming audios 
+8. EventBridge passing label complete event to SQS 
+9. User trigger retraining / update model  
+
 
 ## Security
 
