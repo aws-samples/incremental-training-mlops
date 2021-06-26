@@ -1,5 +1,6 @@
 class ParameterSetting():
-    def __init__(self, csv_path='./', data_dir='furbo_only', save_root='snapshots', model_name = 'CNN14', val_split=0,
+    def __init__(self, csv_path='./', data_dir='furbo_only', save_root='snapshots', model_file='snapshots/final_model.pkl', 
+                 model_name = 'CNN14', val_split=0,
                  epochs=20, batch_size=128, lr=0.0001, num_class=2,
                  time_drop_width=64, time_stripes_num=2, freq_drop_width=8, freq_stripes_num=2,
                  sr=8000, nfft=200, hop=80, mel=64, resume=None, normalize=None, preload=False,
@@ -8,7 +9,7 @@ class ParameterSetting():
         self.csv_path = csv_path
         self.data_dir = data_dir
         self.save_root = save_root
-
+        self.model_file = model_file 
         self.model_name = model_name
         self.val_split = val_split
         self.epochs = epochs
