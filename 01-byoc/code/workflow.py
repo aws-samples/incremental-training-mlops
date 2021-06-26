@@ -157,7 +157,7 @@ def train_model(model, params, dataloaders, dataset_sizes):
                 print()
 
     model_file = params.model_file
-    shutil.move(last_model_path, '/opt/ml/model/final_model.pkl')
+    shutil.move(last_model_path, model_file)
     ##############
     # evaluation #
     ##############

@@ -22,7 +22,7 @@ def lambda_handler(event, context):
     payload = base64.b64decode(body)
     runtime_client = boto3.client('runtime.sagemaker')
     response = runtime_client.invoke_endpoint(EndpointName=ENDPOINT_NAME, 
-                                  ContentType='application/x-image', 
+                                  ContentType='application/octet-stream', 
                                   Body=payload)
     
     result = response['Body'].read().decode('utf-8')    
