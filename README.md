@@ -22,6 +22,17 @@ This sample code is also a template for a [dog bark sound recognition competitio
 8. EventBridge passing label complete event to SQS 
 9. User trigger retraining / update model  
 
+### How to Use 
+* Prepare the Environment 
+1. Create a sagemaker notebook instance 
+2. Execute prepare.ipynb
+
+* Bring Your Own Algorithm on SageMaker 
+This [notebook](https://github.com/aws-samples/incremental-training-mlops/blob/main/01-byoc/audio.ipynb) demonstrate how to develop your own algorithm on SageMaker 
+
+* Data Collecting and Retrain Process 
+This [notebook](https://github.com/aws-samples/incremental-training-mlops/blob/main/02-increment-train/a2i-audio-classification-and-retraining.ipynb) demonstrate how to setup data collection workflow and automate the retrain process. 
+
 
 ## Security
 
