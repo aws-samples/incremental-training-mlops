@@ -1,5 +1,5 @@
 absl-py==0.10.0
-aiohttp==3.6.2
+aiohttp==3.7.4
 aioredis==1.3.1
 appdirs==1.4.4
 argon2-cffi==20.1.0
@@ -9,7 +9,7 @@ attrs==19.3.0
 audioread==2.1.8
 backcall==0.2.0
 beautifulsoup4==4.9.1
-bleach==3.1.5
+bleach==3.3.0
 blessings==1.7
 cachetools==4.1.1
 certifi==2020.6.20
@@ -46,7 +46,7 @@ ipywidgets==7.5.1
 isort==5.5.2
 itsdangerous==1.1.0
 jedi==0.17.2
-Jinja2==2.11.2
+Jinja2==2.11.3
 joblib==0.16.0
 jsonschema==3.2.0
 jupyter==1.0.0
@@ -67,7 +67,7 @@ msgpack==1.0.0
 multidict==4.7.6
 nbconvert==5.6.1
 nbformat==5.0.7
-notebook==6.1.3
+notebook==6.4.1
 numba==0.51.0
 numexpr==2.7.1
 numpy==1.18.5
@@ -82,7 +82,7 @@ pandocfilters==1.4.2
 parso==0.7.1
 pexpect==4.8.0
 pickleshare==0.7.5
-Pillow==7.2.0
+Pillow==8.3.2
 pkbar==0.4
 pooch==1.1.1
 prometheus-client==0.8.0
@@ -96,7 +96,7 @@ pyasn1-modules==0.2.8
 pycparser==2.20
 pydiogment==0.1.0
 pydub==0.24.1
-Pygments==2.6.1
+Pygments==2.7.4
 pylint==2.6.0
 pyparsing==2.4.7
 pyrsistent==0.16.0
@@ -106,7 +106,7 @@ pytorch-ignite==0.4.1
 pytorch-ranger==0.1.1
 pytorch-warmup==0.0.4
 pytz==2020.1
-PyYAML==5.3.1
+PyYAML==5.4
 pyzmq==19.0.2
 qtconsole==4.7.6
 QtPy==1.9.0
@@ -115,7 +115,7 @@ redis==3.4.1
 requests==2.24.0
 requests-oauthlib==1.3.0
 resampy==0.2.2
-rsa==4.6
+rsa==4.7
 scikit-learn==0.23.2
 scipy==1.4.1
 Send2Trash==1.5.0
@@ -126,8 +126,8 @@ tables==3.6.1
 tensorboard==2.3.0
 tensorboard-plugin-wit==1.7.0
 tensorboardX==2.1
-tensorflow==2.3.0
-tensorflow-estimator==2.3.0
+tensorflow==2.5.1
+tensorflow-estimator==2.5.0
 termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
@@ -143,7 +143,7 @@ tqdm==4.48.2
 traitlets==4.3.3
 typed-ast==1.4.1
 typing-extensions==3.7.4.3
-urllib3==1.25.10
+urllib3==1.26.5
 wcwidth==0.2.5
 webencodings==0.5.1
 Werkzeug==1.0.1

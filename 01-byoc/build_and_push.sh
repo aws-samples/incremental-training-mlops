@@ -31,11 +31,11 @@ $(aws ecr get-login --region ${region} --no-include-email)
 $(aws ecr get-login --registry-ids 763104351884 --region ${region} --no-include-email)
 
 # get the fullname of deep learning container image 
-base_img='763104351884.dkr.ecr.'$region'.amazonaws.com/pytorch-training:1.6.0-gpu-py36-cu110-ubuntu18.04'
+base_img='763104351884.dkr.ecr.'$region'.amazonaws.com/pytorch-training:1.7.1-gpu-py36-cu110-ubuntu18.04'
 echo 'base_img:'$base_img
 docker pull $base_img
 # Build the docker image locally with the image name and then push it to ECR
 # with the full name.
-docker build  -t ${algorithm_name} -f Dockerfile  --build-arg BASE_IMG="${base_img}" .  --no-cache
+docker build  -t ${algorithm_name} -f Dockerfile  --build-arg BASE_IMG="${base_img}" .  
 docker tag ${algorithm_name} ${fullname}
 docker push ${fullname}
