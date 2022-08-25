@@ -67,7 +67,7 @@ msgpack==1.0.0
 multidict==4.7.6
 nbconvert==5.6.1
 nbformat==5.0.7
-notebook==6.4.1
+notebook==6.4.10
 numba==0.51.0
 numexpr==2.7.1
 numpy==1.18.5
@@ -82,7 +82,7 @@ pandocfilters==1.4.2
 parso==0.7.1
 pexpect==4.8.0
 pickleshare==0.7.5
-Pillow==8.3.2
+Pillow==9.0.1
 pkbar==0.4
 pooch==1.1.1
 prometheus-client==0.8.0
@@ -126,7 +126,7 @@ tables==3.6.1
 tensorboard==2.3.0
 tensorboard-plugin-wit==1.7.0
 tensorboardX==2.1
-tensorflow==2.5.1
+tensorflow==2.5.3
 tensorflow-estimator==2.5.0
 termcolor==1.1.0
 terminado==0.8.3
