@@ -96,7 +96,7 @@ pyasn1-modules==0.2.8
 pycparser==2.20
 pydiogment==0.1.0
 pydub==0.24.1
-Pygments==2.7.4
+Pygments==2.15.0
 pylint==2.6.0
 pyparsing==2.4.7
 pyrsistent==0.16.0
