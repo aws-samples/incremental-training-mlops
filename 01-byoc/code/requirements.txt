@@ -143,7 +143,7 @@ tqdm==4.48.2
 traitlets==4.3.3
 typed-ast==1.4.1
 typing-extensions==3.7.4.3
-urllib3==1.26.5
+urllib3==1.26.17
 wcwidth==0.2.5
 webencodings==0.5.1
 Werkzeug==1.0.1
